@@ -1,0 +1,11 @@
+{
+  "name": "fullstack_backend",
+  "version": "1.0.0",
+  "description": "This is a fullstack tracker backend developed by Diavakar Pal and Ashwani Dubey",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "Divakar Pal and Ashwani Dubey",
+  "license": "MIT"
+}
