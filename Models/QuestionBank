@@ -1,0 +1,17 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+
+
+
+
+const tionBank = new Schema({
+  
+  tion: String,
+  type: String,
+  link: String,
+  note:String
+});
+
+
+module.exports = mongoose.model('tionBank', tionBank);
