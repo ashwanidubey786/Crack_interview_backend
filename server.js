@@ -8,7 +8,7 @@ route.init(router);
 app.use(bodyParser.json());
 var cors = require('cors')
 app.use(cors());
-mongoose.connect(`mongodb://localhost:27017/question_bank`, {useNewUrlParser: true, useUnifiedTopology: true}, (err, res) => {
+mongoose.connect(`mongodb://localhost:27017/interview_prepare`, {useNewUrlParser: true, useUnifiedTopology: true}, (err, res) => {
     if (err) {
          console.log("Error in establishing a MongoDB Connection");
        } else {
