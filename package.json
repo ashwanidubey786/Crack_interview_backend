@@ -1,20 +1,21 @@
 {
-  "name": "fullstack_backend",
-  "version": "1.0.0",
-  "description": "This is a fullstack tracker backend developed by Diavakar Pal and Ashwani Dubey",
-  "main": "server.js",
-  "scripts": {
-    "test": "nodemon"
-  },
-  "author": "Ashwani Dubey",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "joi": "^17.4.2",
-    "mongo": "^0.1.0",
-    "mongodb": "^4.1.3",
-    "mongoose": "^6.0.11"
+    "name": "fullstack_backend",
+    "version": "1.0.0",
+    "description": "This is a fullstack tracker backend developed by Diavakar Pal and Ashwani Dubey",
+    "main": "server.js",
+    "scripts": {
+      "test": "nodemon"
+    },
+    "author": "Ashwani Dubey",
+    "license": "MIT",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "joi": "^17.4.2",
+      "mongo": "^0.1.0",
+      "mongodb": "^4.1.3",
+      "mongoose": "^6.0.11"
+    }
   }
-}
+  
